@@ -1,0 +1,14 @@
+{
+  "button": {
+    "color": "#123456",
+    "text_color": "#123456"
+  },
+  "text": {
+    "color": "#654321",
+    "text_color": "#123456"
+  },
+  "ed_text": {
+    "color": "#654321",
+    "text_color": "#123456"
+  }
+}

@@ -1,0 +1,35 @@
+<resources>
+    <!--keys used in code-->
+    <string name="KEY_TENANT_ID" translatable="false">TenantID</string>
+
+    <!--string or keys used for multi language support-->
+    <string name="wsdk_name">Wexer</string>
+    <string name="wexer_err_unknown">Unknown error occurred</string>
+    <string name="wexer_err_config_null">SDK Config is null</string>
+    <string name="wexer_err_app_context">App context is null</string>
+    <string name="wexer_ept_app_name">App Name is empty</string>
+    <string name="wexer_ept_base_url">Base URL is empty</string>
+    <string name="wexer_ept_client_id">Client id is empty</string>
+    <string name="wexer_ept_secret">App secrete is empty</string>
+    <string name="wexer_ept_tenant_id">Tenant id is empty</string>
+    <string name="wexer_ept_localytics_key">Localytics key is empty</string>
+    <string name="wexer_ept_session_id">Session id is empty</string>
+    <string name="wexer_str_ok">OK</string>
+    <string name="wexer_str_cancel">Cancel</string>
+    <string name="wexer_str_yes">Yes</string>
+    <string name="wexer_str_no">no</string>
+    <string name="wexer_str_wait">Please wait..</string>
+    <string name="wexer_str_vid_play">Play</string>
+    <string name="wexer_str_vid_pause">Pause</string>
+    <string name="wexer_str_vid_prev">Prev</string>
+    <string name="wexer_str_vid_next">Next</string>
+    <string name="wexer_str_vid_rotate">Rotate</string>
+    <string name="wexer_str_exit">Exit</string>
+    <string name="wexer_str_close">Close</string>
+    <string name="wexer_str_api_resp_suc">Api Response fetched successfully</string>
+    <string name="wexer_str_api_resp_err">Api Response failed</string>
+
+    <!--this section is just for testing purpose only, should remove in prod-->
+    <string name="media_url_mp3">https://storage.googleapis.com/exoplayer-test-media-0/play.mp3</string>
+    <string name="media_url_mp4">https://androidwave.com/media/androidwave-video-exo-player.mp4</string>
+</resources>

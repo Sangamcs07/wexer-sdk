@@ -1,0 +1,22 @@
+dependencies {
+    //implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    //testImplementation 'junit:junit:4.12'
+    //androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    //androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    /*Retrofit*/
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+
+    /*Expo player */
+    def expoVer = '2.10.5'
+    implementation "com.google.android.exoplayer:exoplayer-core:$expoVer"
+    implementation "com.google.android.exoplayer:exoplayer-dash:$expoVer"
+    implementation "com.google.android.exoplayer:exoplayer-ui:$expoVer"
+
+    /*co routin*/
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.3"
+}
